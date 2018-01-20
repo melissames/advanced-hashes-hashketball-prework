@@ -167,7 +167,7 @@ def team_colors (teams)
   }
 end
 
-def team_names (game_hash)
+def team_names
   team_names_array = []
 
   game_hash.collect { |home_or_away, name_color_player_object|
@@ -222,7 +222,7 @@ def player_stats (player_name)
   player_stats_object
 end
 
-def big_shoe_rebounds(game_hash)
+def big_shoe_rebounds
   largest_shoe_size = 0
   largest_shoe_player = nil
 
@@ -249,4 +249,4 @@ def big_shoe_rebounds(game_hash)
       end
     }
   }
-end 
+end
