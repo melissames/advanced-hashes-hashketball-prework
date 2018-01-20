@@ -167,7 +167,7 @@ def team_colors (teams)
   }
 end
 
-def team_names(game_hash)
+def team_names
   team_names_array = []
 
   game_hash.collect { |home_or_away, name_color_player_object|
