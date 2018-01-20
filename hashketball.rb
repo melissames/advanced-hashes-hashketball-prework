@@ -222,7 +222,7 @@ def player_stats (player_name)
   player_stats_object
 end
 
-def big_shoe_rebounds(game_hash)
+def big_shoe_rebounds
   largest_shoe_size = 0
   largest_shoe_player = nil
 
