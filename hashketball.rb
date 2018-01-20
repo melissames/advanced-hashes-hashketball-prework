@@ -249,4 +249,4 @@ def big_shoe_rebounds(game_hash)
       end
     }
   }
-end 
+end
